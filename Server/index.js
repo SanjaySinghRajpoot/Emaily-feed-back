@@ -9,5 +9,5 @@ const app = express();
 
 require('./routes/authRoutes')(app);
 
-const PORT = process.env.PORT || 5000;  //Will Give a dynamic port from the server
+const PORT = process.env.PORT || 5000;  //Give a dynamic port from the server
 app.listen(PORT);
